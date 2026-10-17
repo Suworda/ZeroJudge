@@ -71,9 +71,6 @@ int main(){
 
     sort(p_ord.begin(), p_ord.end());
 
-    // for(pair<int,int> x: p_ord) cout << x.second << ' ' ;
-    // return 0;
-
     for(auto [id, x]: p_ord){
         if(x == 1){
             int cnt = 0;
@@ -120,10 +117,4 @@ int main(){
     for(auto ans: v){
         cout << ans.a << ' ' << ans.b << ' ' << ans.c << ' ' << ans.d << '\n';
     }
-
-
-
-
-
-
 }
